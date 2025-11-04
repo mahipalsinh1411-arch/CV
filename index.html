@@ -1,0 +1,279 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Mahipalsinh jadeja- Resume</title> 
+    <style> 
+        body { 
+            background: #eef2f3; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            margin: 0; 
+            padding: 32px 0; 
+        } 
+        .resume-container { 
+            width: 830px; 
+            margin: 0 auto; 
+            background: #fff; 
+            box-shadow: 0 4px 18px rgba(0,0,0,0.10); 
+            display: flex; 
+            border-radius: 8px; 
+            overflow: hidden; 
+        } 
+        .left-section { 
+            width: 260px; 
+            background: #e2f3f6; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            border-right: 1.5px solid #d6dbde; 
+        } 
+        .profile-pic { 
+            width: 138px; 
+            height: 140px; 
+            object-fit: cover; 
+            margin-top: 30px; 
+            margin-bottom: 4px; 
+            border-radius: 8px; 
+            background: #eee; 
+            box-shadow: 0 4px 12px #38a6bf1a; 
+        } 
+        .contact-section { 
+            width: 204px;
+           margin-top: 14px; 
+            margin-bottom: 22px; 
+        } 
+        .section-title { 
+            font-weight: bold; 
+            font-size: 1.08em; 
+            color: #1180a6; 
+            letter-spacing: 0.3px; 
+            margin: 14px 0 6px 0; 
+        } 
+        .contact-list { 
+            list-style: none; 
+            margin: 0 0 11px 0; 
+            padding: 0; 
+            font-size: 0.97em; 
+        } 
+        .contact-list li { 
+            margin-bottom: 8px; 
+            display: flex; 
+            align-items: center; 
+            color: #313b45; 
+        } 
+        .contact-icon { 
+            margin-right: 7px; 
+            color: #1180a6; 
+            font-size: 1.10em; 
+        } 
+        .summary-section { 
+            margin-bottom: 9px; 
+        } 
+        .summary-section p { 
+            color: #21272b; 
+            font-size: 0.97em; 
+            margin: 0 0 0 0; 
+            line-height: 1.47em; 
+        } 
+        .skills-section, 
+        .lang-section { 
+            margin-bottom: 8px; 
+        } 
+        .skills-list, 
+        .lang-list { 
+            list-style: none; 
+            margin: 0 0 6px 0;
+            padding: 0; 
+        } 
+        .skills-list li, 
+        .lang-list li { 
+            margin-bottom: 4px; 
+            font-size: 0.95em; 
+            color: #313b45; 
+        } 
+        .right-section { 
+            flex: 1; 
+            padding: 32px 46px 36px 36px; 
+            box-sizing: border-box; 
+        } 
+        .header-bar { 
+            margin-top: 0; 
+            background: #1198b3; 
+            color: #fff; 
+            padding: 7px 0 8px 15px; 
+            font-size: 1.08em; 
+            font-weight: 500; 
+            letter-spacing: 1px; 
+            border-radius: 3px; 
+            margin-bottom: 19px; 
+        } 
+        .main-header { 
+            margin-top: 14px; 
+        } 
+        .name { 
+            font-size: 2.2em; 
+            font-weight: 700; 
+            color: #222; 
+            letter-spacing: 1.2px; 
+            margin: 0 0 1px 0; 
+        } 
+        .job-title { 
+            color: #1198b3; 
+            margin-top: 1px; 
+            font-size: 1.16em; 
+            letter-spacing: 1px; 
+            margin-bottom: 17px; 
+            font-weight: 500; 
+        } 
+        .right-title { 
+            color: #0b5b77;
+            font-size: 1.10em; 
+            font-weight: bold; 
+            letter-spacing: 1.2px; 
+            margin-top: 10px; 
+            margin-bottom: 12px; 
+            border-bottom: 1.25px solid #d6dbde; 
+            padding-bottom: 2px; 
+        } 
+        .exp-entry { 
+            margin-bottom: 18px; 
+        } 
+        .exp-firm { 
+            color: #070d13; 
+            font-weight: 700; 
+            font-size: 1em; 
+        } 
+        .exp-job { 
+            font-size: 0.97em; 
+            color: #195063; 
+            font-weight: 600; 
+        } 
+        .exp-date { 
+            color: #8da1ae; 
+            font-size: 0.97em; 
+            font-weight: 500; 
+        } 
+        .exp-bullets { 
+            margin: 7px 0 0 16px; 
+            color: #222; 
+            font-size: 0.97em; 
+        } 
+        .edu-entry { 
+            margin-bottom: 14px; 
+        } 
+        .edu-degree { 
+            font-weight: 700; 
+            font-size: 1em; 
+            color: #115c74; 
+        } 
+        .edu-meta { 
+            color: #8da1ae; 
+            font-size: 0.98em; 
+        } 
+        @media (max-width: 950px) { 
+ .resume-container {width:99vw;} 
+        } 
+        @media (max-width: 700px) { 
+            .resume-container {flex-direction:column;} 
+            .left-section, .right-section {width:100vw;} 
+            .right-section {padding: 19px 4vw 22px 4vw;} 
+        } 
+    </style> 
+</head> 
+<body> 
+<div class="resume-container"> 
+    <!-- LEFT SECTION --> 
+    <div class="left-section"> 
+        <img src="mj jadeja.jpg" alt="Profile Picture" class="profile-pic"> 
+        <div class="contact-section"> 
+            <div class="section-title">CONTACTO</div> 
+            <ul class="contact-list"> 
+                <li><span class="contact-icon">&#9993;</span> mahipalsinh1411@gmail.com</li> 
+                <li><span class="contact-icon">&#9742;</span> +91 9900818110</li> 
+                <li><span class="contact-icon">&#8962;</span> rajkot, Gujart</li> 
+                <li><span class="contact-icon">&#62232;</span> linkedin/Mahipalsinh.jadeja</li> 
+            </ul> 
+            <div class="section-title">PROFILE SUMMARY</div> 
+            <div class="summary-section"> 
+                <p> 
+                    Business development manager; looking to obtain a challenging position in a organization, 
+utilizing my proven track record in driving growth, process optimization, and creative approaches to 
+achieve ambitious goals. 
+                </p> 
+            </div> 
+            <div class="section-title">SKILLS</div> 
+            <div class="skills-section"> 
+                <ul class="skills-list"> 
+                    <li>Excel</li> 
+                    <li>python</li> 
+                    <li>java</li> 
+                    <li>html</li> 
+                    <li>C++</li> 
+                </ul> 
+            </div> 
+            <div class="section-title">LANGUAGES</div> 
+            <div class="lang-section"> 
+                <ul class="lang-list"> 
+                    <li>Gujart: Native</li>
+                     <li>English: Intermediate</li> 
+                    <li>Marathi: Beginner</li> 
+                </ul> 
+            </div> 
+        </div> 
+    </div> 
+    <!-- RIGHT SECTION --> 
+    <div class="right-section"> 
+        <div class="main-header"> 
+            <span style="font-size:1.15em;color:#1a2636;font-weight:500;">Jadeja</span><br> 
+            <span class="name" style="font-size:2.4em;margin-top: -8px;">Mahipalsinh</span> 
+            <div class="job-title">Job Title</div> 
+        </div> 
+        <div class="header-bar">PROFESSIONAL EXPERIENCE</div> 
+        <div> 
+            <div class="exp-entry"> 
+                <div class="exp-firm">INNOVATECH CONSULTING FIRM</div> 
+                <div class="exp-job">Business Development Manager</div> 
+                <div class="exp-date">Aug. 2025 - Present</div> 
+                <ul class="exp-bullets"> 
+                    <li>Developed, executed and educated a comprehensive sales strategy, resulting in a 40% 
+increase in annual revenue within one year.</li> 
+                    <li>Developed new product lines and drove business growth.</li> 
+                </ul> 
+            </div> 
+            <div class="exp-entry"> 
+                <div class="exp-firm">CODEMASTER CORPORATION</div> 
+                <div class="exp-job">Sales Executive</div> 
+                <div class="exp-date">Jul. 2022 - Aug. 2025</div> 
+                <ul class="exp-bullets"> 
+                    <li>Consistently outperformed sales targets by implementing new approaches for 
+reaching the market.</li> 
+                    <li>Expanded organizational client base and presentations to potential clients.</li> 
+                </ul> 
+            </div> 
+            <div class="exp-entry"> 
+                <div class="exp-firm">META USA RESEARCH</div> 
+                <div class="exp-job">Market Analyst</div> 
+                <div class="exp-date">Mar. 2015 - Jul. 2019</div> 
+                <ul class="exp-bullets"> 
+                    <li>Designed and implemented market research and reporting processes, gathering 
+valuable insights.</li> 
+                    <li>Developed strategic client-research reports.</li> 
+                </ul>
+                </div> 
+</div> 
+<div class="header-bar" style="margin-top:25px;">EDUCATION</div> 
+<div> 
+<div class="edu-entry"> 
+<div class="edu-degree">MASTER OF BUSINESS ADMINISTRATION</div> 
+<div class="edu-meta">NYU | 2014 - 2016</div> 
+</div> 
+<div class="edu-entry"> 
+<div class="edu-degree">BACHELOR OF COMMERCE IN MARKETING</div> 
+<div class="edu-meta">NYU | 2008 - 2012</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+</html>
